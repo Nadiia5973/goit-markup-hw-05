@@ -679,10 +679,11 @@ img {
 }
 
 .label-container {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .label-modal {
+    display: block;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -718,8 +719,11 @@ img {
 
 }
 
-.modal-input:focus {
-    border-color: #4D5AE5;
+.modal-input:focus{
+   border-color: #4D5AE5;
+}
+.modal-input:focus+.svg-form {
+    fill: #4D5AE5;
 }
 
 .close {
@@ -751,8 +755,8 @@ img {
     fill: black;
 }
 
-.svg-modal:hover,
-.svg-modal:focus {
+.close .svg-modal:hover,
+.close .svg-modal:focus {
     fill: #ffffff;
 }
 
@@ -765,9 +769,6 @@ img {
 
 }
 
-.svg-form:focus{
-    fill: #4D5AE5;
-}
 
 .textarea{
     width: 100%;
@@ -818,7 +819,7 @@ img {
 
 .button-modal{
     display: block;
-    max-width: 159px;
+    min-width: 169px;
     border-radius: 4px;
     height: 56px;
     font-family: "Roboto", sans-serif;
