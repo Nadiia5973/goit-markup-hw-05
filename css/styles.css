@@ -578,38 +578,43 @@ img {
 
 /* #region Form */
 
-.subscribe{
-    margin-left: 80px;
+.subscribe {
+    margin-left: 64px;
     margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 16;
-    line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-left: 16px;
+    font-weight: 500;
     color: #ffffff;
 }
 
-.form-subscribe{
-display: flex;
-align-items: flex-end;
-gap: 24px;
-margin-left: 80px;
-height: auto;
+.form-subscribe {
+    display: flex;
+    align-items: flex-end;
+    gap: 24px;
+    margin-left: 80px;
+    height: auto;
 }
 
-.label-subscribe{
+.label-subscribe {
     display: flex;
     flex-direction: column;
-    color: #fff;
     gap: 16px;
+
 }
 
-.input-email{
+.input-email {
     background: #2e2f42;
     border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    color: #ffffff;
+    background-color: transparent;
 }
 
 .button {
@@ -619,23 +624,27 @@ height: auto;
     border-radius: 4px;
     border: none;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
-    color: #fff;
-    font-size: 14px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
     transition: background-color 250ms ease-in-out;
-    gap: 8px;
 }
 
-.svg-telegram{
+.svg-telegram {
     fill: #fff;
+    margin-left: 16px;
 }
+
 /* #endregion */
 
 /* #region Modal-Overlay */
-.modal-overlay{
+.modal-overlay {
     background: rgba(46, 47, 66, 0.4);
     display: flex;
     justify-content: center;
@@ -648,19 +657,21 @@ height: auto;
     z-index: 999;
 }
 
-.modal{
+.modal {
     background-color: #f4f4fd;
     border-radius: 4px;
     width: 408px;
 }
-.modal-form{
+
+.modal-form {
     position: relative;
     display: flex;
     flex-direction: column;
     margin: 24px;
     gap: 8px;
 }
-.label-modal{
+
+.label-modal {
     display: flex;
     flex-direction: column;
     font-weight: 400;
@@ -671,7 +682,7 @@ height: auto;
     gap: 4px;
 }
 
-.modal-name{
+.modal-name {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -682,14 +693,14 @@ height: auto;
     padding-top: 48px;
 }
 
-.modal-input{
+.modal-input {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 360px;
     height: 40px;
 }
 
-.close{
+.close {
     position: absolute;
     top: 0;
     right: 0;
@@ -703,7 +714,7 @@ height: auto;
     stroke: rgba(0, 0, 0, 0.1);
 }
 
-.svg-modal{
+.svg-modal {
     fill: black;
 }
 
