@@ -679,7 +679,7 @@ img {
     gap: 8px;
 }
 
-.label-container{
+.label-container {
     margin-bottom: 8px;
 }
 
@@ -690,10 +690,10 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-margin-bottom: 4px;
+    margin-bottom: 4px;
 }
 
-.input-container{
+.input-container {
     position: relative;
 }
 
@@ -712,8 +712,7 @@ margin-bottom: 4px;
 .modal-input {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    width: 100%
-    height: 40px;
+    width: 100% height: 40px;
     background-color: transparent;
     padding-left: 38px;
     outline: transparent;
@@ -721,9 +720,10 @@ margin-bottom: 4px;
 
 }
 
-.modal-input:focus{
+.modal-input:focus {
     border-color: #4D5AE5;
 }
+
 .close {
     position: absolute;
     padding: 0;
@@ -742,10 +742,10 @@ margin-bottom: 4px;
 }
 
 .close:hover,
-.close:focus{
-background-color: #404bbf;
-border: none;
-fill: #ffffff;
+.close:focus {
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff;
 }
 
 .svg-modal {
@@ -754,7 +754,7 @@ fill: #ffffff;
 }
 
 .svg-modal:hover,
-.svg-modal:focus{
+.svg-modal:focus {
     fill: #ffffff;
 }
 
