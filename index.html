@@ -458,9 +458,14 @@
         </div>
         <p class="modal-name">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-            <div class="modal-li">
-                <label class="label-modal">Name
-                    <input class="modal-input" type="text" name="modal-name" placeholder="Name" />
+            <div class="label-container">
+                <label class="label-modal" for="user-name">Name
+                    <div class="input-container">
+                        <input class="modal-input" id="user-name" type="text" name="modal-name" placeholder="Name" />
+                        <svg class="svg-people">
+                            <use href="./images/icons.svg#icon-person-black"></use>
+                        </svg>
+                    </div>
                 </label>
             </div>
             <div class="modal-li">
