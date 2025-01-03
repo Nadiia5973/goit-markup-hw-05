@@ -655,11 +655,11 @@ img {
     top: 0;
     left: 0;
     z-index: 999;
-   /*pointer-events: none;
+    /*pointer-events: none;
     opacity: 0;*/
 }
 
-.modal-overlay.is-open{
+.modal-overlay.is-open {
     opacity: 1;
     pointer-events: auto;
 }
